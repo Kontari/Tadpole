@@ -13,7 +13,7 @@ def name_gen():
 	for x in range( int(10) ): #This algo uses 1/3 vowel and 2/3 consts
 
 		if ( (random.random() * 3) > 1):
-			new_name += const[int( len(const) * random.random())] 
+			new_name += const[int( len(const) * random.random())]
 		else:
 			new_name += vowel[int( len(vowel) * random.random())]
 

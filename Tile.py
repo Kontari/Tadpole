@@ -10,12 +10,11 @@ class Tile():
 		else:
 			self.location_x = x
 			self.location_y = y
-		                
+
 		self.symbol = "-"
-		
 
 	def set_kelp(self):
-		self.symbol = "K"	
+		self.symbol = "K"
 
 	def set_food(self):
 		self.symbol = "#"
